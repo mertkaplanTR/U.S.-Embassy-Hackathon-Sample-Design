@@ -43,8 +43,8 @@
                             <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
                             <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
                             <li><a href="cart.html"><i class="fa fa-user"></i> My Cart</a></li>
-                            <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
+                            
+                            <li><a href="register.aspx"><i class="fa fa-user"></i> Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -81,14 +81,12 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="index.html">e<span>Electronics</span></a></h1>
+                        <h1><a href="index.aspx">Free<span>Lance</span></a></h1>
                     </div>
                 </div>
                 
                 <div class="col-sm-6">
-                    <div class="shopping-item">
-                        <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -107,14 +105,12 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="shop.html">Shop page</a></li>
-                        <li><a href="single-product.html">Single product</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li class="active"><a href="checkout.html">Checkout</a></li>
-                        <li><a href="#">Category</a></li>
+                        <li class="active"><a href="index.aspx">Homepage</a></li>
+                        <li><a href="avaiblejobs.aspx">Avaible Jobs</a></li>
+                        <li><a href="selectajob.aspx">Select a Job</a></li>
+<%--                        <li><a href="#">Category</a></li>
                         <li><a href="#">Others</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Contact</a></li>--%>
                     </ul>
                 </div>  
             </div>
@@ -126,7 +122,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="product-bit-title text-center">
-                        <h2>Shopping Cart</h2>
+                        <h2>Login Area</h2>
                     </div>
                 </div>
             </div>
@@ -145,20 +141,20 @@
                         <div class="woocommerce">
                             <center>
                                 <div class="woocommerce-info">
-                                    Returning customer? <a class="showlogin" data-toggle="collapse" href="#login-form-wrap" aria-expanded="false" aria-controls="login-form-wrap"></a>
+                                    Please enter your details <a class="showlogin" data-toggle="collapse" href="#login-form-wrap" aria-expanded="false" aria-controls="login-form-wrap"></a>
                                 </div>
                                 <form id="login-form-wrap" class="login collapse" method="post">
 
-                                    <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section.</p>
+                                   
                                     <p class="form-row form-row-first">
                                         <label for="username">
-                                            Username or email <span class="required">*</span>
+                                            Username<span class="required">*</span>
                                         </label>
                                         <input type="text" id="username" name="username" class="input-text">
                                     </p>
                                     <p class="form-row form-row-last">
                                         <label for="password">
-                                            Password <span class="required">*</span>
+                                            Password    <span class="required">*</span>
                                         </label>
                                         <input type="password" id="password" name="password" class="input-text">
                                     </p>
@@ -175,20 +171,24 @@
                                 </form>
 
                                 <div class="woocommerce-info">
-                                    Have a coupon? <a class="showcoupon" data-toggle="collapse" href="#coupon-collapse-wrap" aria-expanded="false" aria-controls="coupon-collapse-wrap">Click here to enter your code</a>
+                                    Register Me ! <a class="showcoupon" data-toggle="collapse" href="#coupon-collapse-wrap" aria-expanded="false" aria-controls="coupon-collapse-wrap">Click here to enter your code</a>
                                 </div>
                             </center>
 
                             <form id="coupon-collapse-wrap" method="post" class="checkout_coupon collapse">
-
                                 <p class="form-row form-row-first">
-                                    <center> <input type="text" value="" id="coupon_code" placeholder="Coupon code" class="input-text" name="coupon_code">
+                                    <center> <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></br>
+                                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></br>
+                                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></br>
+                                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox></br>
+                                    </center>
+                                        
                                 </p>
 
                                 <p class="form-row form-row-last">
                                     <input type="submit" value="Apply Coupon" name="apply_coupon" class="button">
                                 </p>
-                                </center>
+                                
                                 <div class="clear"></div>
                             </form>
 

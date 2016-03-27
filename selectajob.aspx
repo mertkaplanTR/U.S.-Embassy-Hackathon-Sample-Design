@@ -45,7 +45,7 @@
                             <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
                             <li><a href="cart.html"><i class="fa fa-user"></i> My Cart</a></li>
                             <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                         <li class="active"><a href="index.aspx">Homepage</a></li>
                         <li><a href="avaiblejobs.aspx">Avaible Jobs</a></li>
                         <li><a href="selectajob.aspx">Select a Job</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
+                       
                         <li><a href="#">Category</a></li>
                         <li><a href="#">Others</a></li>
                         <li><a href="#">Contact</a></li>

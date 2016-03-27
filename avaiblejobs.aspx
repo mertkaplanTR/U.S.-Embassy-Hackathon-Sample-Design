@@ -70,8 +70,8 @@
                                     <li><a href="#">Arabic</a></li>
                                     <li><a href="#">Turkish</a></li>
                                 </ul>
-                            <li><a href="#"><i class="fa fa-user"></i> Register</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
+                            <li><a href="register.aspx"><i class="fa fa-user"></i> Register</a></li>
+                            <li><a href="register.aspx"><i class="fa fa-user"></i> Login</a></li>
                             </li>
                         </ul>
                     </div>
@@ -85,7 +85,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="index.html">Free<span>Lance</span></a></h1>
+                        <h1><a href="index.aspx">Free<span>Lance</span></a></h1>
                     </div>
                 </div>
                 
@@ -112,7 +112,7 @@
                         <li class="active"><a href="index.aspx">Homepage</a></li>
                         <li><a href="avaiblejobs.aspx">Avaible Jobs</a></li>
                         <li><a href="selectajob.aspx">Select a Job</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
+                        
                         <li><a href="#">Category</a></li>
                         <li><a href="#">Others</a></li>
                         <li><a href="#">Contact</a></li>
